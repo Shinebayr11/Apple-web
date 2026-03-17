@@ -28,7 +28,7 @@ p {
 }
 .hero-content {
   display: flex;
-  background-image: url(./Background.svg);
+  background-image: url(./ip16-pro.svg);
   width: 100vw;
   height: 692px;
   flex-direction: column;
