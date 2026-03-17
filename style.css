@@ -6,17 +6,23 @@ header {
   justify-content: center;
   align-items: center;
   background-color: rgba(245, 245, 247, 0.8);
+  font-size: 30px;
 }
-
+.hero p {
+  font-size: 35px;
+  color: white;
+}
 a {
   text-decoration: none;
   color: black;
 }
-p {
-  margin: 10px;
-}
-h1 {
-  margin: 0px;
+h4 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 3vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
 }
 .donate {
   display: flex;
@@ -38,7 +44,17 @@ h1 {
   color: white;
   background-size: cover;
   background-position: center;
-  padding-top: 1.5vh;
+  padding-top: 5vh;
+}
+.hero-content h1 {
+  margin: 0px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 5vh;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 115.385% */
+  letter-spacing: -0.28px;
 }
 #ip16-pro {
   background-image: url(./ip16-pro.svg);
@@ -49,13 +65,27 @@ h1 {
 #gift {
   background-image: url(./gift.svg);
 }
-#gift {
+
+.hero-cont {
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 50vh;
   display: flex;
-  justify-content: end;
-  color: black;
-  padding-bottom: 2vh;
+  align-items: flex-end;
+  justify-content: center;
 }
-#gift h4 {
+.gift {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8vh;
+}
+#gift h1 {
+  margin: 0px;
+  font-size: 4vh;
+}
+#gift p {
   color: black;
 }
 .button {
@@ -66,16 +96,20 @@ h1 {
 }
 
 .button1 {
-  width: 123px;
-  height: 44px;
+  width: 180px;
+  height: 60px;
+  padding: 12px 20px;
   background-color: #0071e3;
   border-radius: 999px;
   color: white;
+  font-size: 20px;
 }
 .button2 {
   color: #2997ff;
-  width: 68px;
-  height: 44px;
+  width: 120px;
+  height: 60px;
+  padding: 12px 20px;
+  font-size: 20px;
   border: 1px solid #2997ff;
   border-radius: 999px;
   background-color: transparent;
@@ -87,14 +121,18 @@ h4 {
   font-size: 24px;
 }
 .button3 {
-  width: 123px;
-  height: 44px;
+  width: 180px;
+  height: 60px;
+  padding: 12px 20px;
+  font-size: 20px;
   background-color: white;
   border-radius: 999px;
 }
 .button4 {
-  width: 68px;
-  height: 44px;
+  width: 180px;
+  height: 60px;
+  padding: 12px 20px;
+  font-size: 20px;
   border: 1px solid white;
   border-radius: 999px;
   background-color: #0018ca;
@@ -105,14 +143,15 @@ p {
   color: #1d1d1f;
   text-align: center;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 25px; /* 138.889% */
 }
 .button5 {
-  width: 114px;
-  height: 44px;
+  width: 180px;
+  height: 60px;
+  font-size: 25px;
   background-color: #0071e3;
   border-radius: 999px;
   color: white;
@@ -128,6 +167,14 @@ p {
   gap: 12px;
   flex-direction: column;
 }
+.store p {
+  font-size: 30px;
+  margin: 20px;
+}
+.store h1 {
+  margin: 0px;
+  font-size: 2vh;
+}
 .store-1 {
   display: flex;
   gap: 12px;
@@ -139,12 +186,14 @@ p {
 .iPad {
   background-image: url(./Figure.svg);
   width: 50vw;
-  height: 35vh;
+  height: 40vh;
   background-size: cover;
   background-position: center;
-  padding-top: 5vh;
+}
+.ipad-cont {
   display: flex;
   flex-direction: column;
+  padding-top: 2vh;
 }
 .iPad img {
   height: 40px;
@@ -152,11 +201,8 @@ p {
 .iPad h1 {
   color: black;
 }
-.iPad h4 {
-  margin: 15px;
-}
 .ipad-p {
-  padding-top: 23vh;
+  padding-top: 25vh;
   text-align: center;
   font-family: Inter;
   font-size: 14px;
@@ -177,15 +223,18 @@ p {
 .Airpods {
   background-image: url(./airpods.svg);
   width: 50vw;
-  height: 35vh;
+  height: 40vh;
   background-size: cover;
   background-position: center;
   display: flex;
-  flex-direction: column;
-  justify-content: end;
-  padding-bottom: 5vh;
-  align-items: center;
+  justify-content: center;
 }
+.AirPods-cont {
+  display: flex;
+  padding-top: 25vh;
+  flex-direction: column;
+}
+
 .Airpods p {
   color: white;
 }
@@ -197,12 +246,11 @@ p {
   background-size: cover;
   width: 50vw;
   background-position: center;
-  height: 35vh;
-  padding-top: 5vh;
+  height: 40vh;
 }
 .apple-icon {
-  width: 50px;
-  height: 60px;
+  width: 40px;
+  height: 50px;
   align-items: center;
 }
 .watch h1 {
@@ -230,14 +278,9 @@ h3 {
   background-size: cover;
   width: 50vw;
   background-position: center;
-  height: 35vh;
-  padding-top: 5vh;
+  height: 40vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.macbook p {
-  margin: 0;
+  justify-content: center;
 }
 
 .store-3 {
@@ -249,11 +292,7 @@ h3 {
   background-size: cover;
   width: 50vw;
   background-position: center;
-  height: 35vh;
-  padding-top: 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 40vh;
 }
 .trade h1 {
   color: black;
@@ -262,23 +301,29 @@ h3 {
   width: 322px;
   height: 50px;
 }
+.button7 {
+  height: 60px;
+  width: 180px;
+  font-size: 20px;
+  border-radius: 999px;
+  background-color: #0071e3;
+  color: white;
+}
 .card {
   background-image: url(./card.svg);
   background-size: cover;
   width: 50vw;
   background-position: center;
-  height: 35vh;
-  padding-top: 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 40vh;
 }
 .card h1 {
   color: black;
 }
 .button6 {
-  width: 123px;
-  height: 44px;
+  width: 180px;
+  height: 60px;
+  padding: 12px 20px;
+  font-size: 20px;
   border-radius: 999px;
   color: #0071e3;
   border: 1px solid #0071e3;
