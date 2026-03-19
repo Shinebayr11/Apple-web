@@ -349,9 +349,11 @@ h3 {
   flex-direction: column;
   scroll-behavior: smooth;
   scrollbar-width: none;
+  padding-top: 20px;
 }
 .scroll-container {
   display: flex;
+  gap: 12px;
 }
 .scroll-item {
   min-width: 1250px;
@@ -370,6 +372,24 @@ h3 {
 }
 #item4 {
   background-image: url(./napoleon.jpg);
+}
+#item5 {
+  background-image: url(./k-pop-idols.jpg);
+}
+#item6 {
+  background-image: url(./season-pass.jpg);
+}
+#item7 {
+  background-image: url(./pressumed-innocent.jpg);
+}
+#item8 {
+  background-image: url(./pachinko.jpg);
+}
+#item9 {
+  background-image: url(./lady-in-the-lake.jpg);
+}
+#item10 {
+  background-image: url(./morning-show.jpg);
 }
 .item1-cont {
   display: flex;
@@ -402,10 +422,120 @@ h3 {
   height: 10px;
   width: 10px;
   border-radius: 50%;
+  background-color: rgb(197, 197, 197);
+}
+.item1-dot:hover {
   background-color: grey;
 }
 .dot {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.animation-cont {
+  width: 417px;
+  height: 236px;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  position: relative;
+}
+.animation-cont p {
+  font-size: 20px;
+}
+.animation-cont button {
+  position: absolute;
+  opacity: 0;
+  border: none;
+  margin-top: 20px;
+  padding: 7px 15px;
+  border-radius: 999px;
+  background-color: white;
+  left: 40%;
+  bottom: 45%;
+}
+.ursdag:hover .animation-content {
+  filter: grayscale(100%);
+}
+.ursdag .animation-content:hover {
+  filter: brightness(100%);
+}
+.animation-cont:hover button {
+  opacity: 1;
+}
+.animation {
+  overflow: hidden;
+}
+.ursdag {
+  width: max-content;
+  display: flex;
+  gap: 12px;
+  padding-top: 20px;
+  animation-name: ursdag;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 30s;
+}
+.animation:hover .ursdag {
+  animation-play-state: paused;
+}
+@keyframes ursdag {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+#anim1 {
+  background-image: url(./animation1.jpg);
+}
+#anim2 {
+  background-image: url(./animation2.jpg);
+}
+#anim3 {
+  background-image: url(./animation3.jpg);
+}
+#anim4 {
+  background-image: url(./animation4.jpg);
+}
+#anim5 {
+  background-color: rgb(20, 40, 56);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#anim6 {
+  background-color: rgb(64, 13, 14);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#anim7 {
+  background-color: rgb(38, 38, 38);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#anim8 {
+  background-image: url(./animation8.jpg);
+}
+#anim9 {
+  background-image: url(./animation9.jpg);
+}
+#anim10 {
+  background-color: #eae6e1;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.anim-img {
+  border-radius: 20px;
+  width: 198px;
+  height: 198px;
 }
