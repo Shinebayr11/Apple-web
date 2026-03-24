@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apple web</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="tablet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,22 +14,25 @@
     />
   </head>
   <body>
-    <header>
-      <a href=""><img src="./Vector.svg" alt="" /></a>
-      <a href="Apple-store/">Store</a>
-      <a href="">Mac</a>
-      <a href="">iPad</a>
-      <a href="">iPhone</a>
-      <a href="">Watch</a>
-      <a href="">Vision</a>
-      <a href="">AirPodds</a>
-      <a href="">TV&Home</a>
-      <a href="">Entertaiment</a>
-      <a href="">Accessories</a>
-      <a href="">Support</a>
-      <a href=""><img src="./Vector (1).svg" alt="" /></a>
-      <a href=""><img src="./Vector (2).svg" alt="" /></a>
-    </header>
+    <nav>
+      <a href=""><img src="./apple/Vector.svg" alt="" /></a>
+      <a class="label" href="Apple-store/">Store</a>
+      <a class="label" href="">Mac</a>
+      <a class="label" href="">iPad</a>
+      <a class="label" href="">iPhone</a>
+      <a class="label" href="">Watch</a>
+      <a class="label" href="">Vision</a>
+      <a class="label" href="">AirPodds</a>
+      <a class="label" href="">TV&Home</a>
+      <a class="label" href="">Entertaiment</a>
+      <a class="label" href="">Accessories</a>
+      <a class="label" href="">Support</a>
+      <div class="nav-img">
+        <a href=""><img src="./apple/Vector (1).svg" alt="" /></a>
+        <a href=""><img src="./apple/Vector (2).svg" alt="" /></a>
+        <a id="menu-icon" href=""><img src="./nav.svg" alt="" /></a>
+      </div>
+    </nav>
     <div class="donate">
       <p>
         We’re donating $5 to the Global Fund for every purchase made with
@@ -59,12 +63,25 @@
           <button class="button5">Shop gifts</button>
         </div>
       </div>
+      <div class="iPad2">
+        <div class="ipad-cont">
+          <img src="./apple/Heading 3.svg" alt="" />
+          <p>Two sizes. Faster chip. Does it all.</p>
+          <div class="button">
+            <button class="button9">Learn more</button>
+            <button class="button10">Buy</button>
+          </div>
+          <div class="ipad-p2">
+            <p>Hello, Apple Intelligence.</p>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="store">
       <div class="store-1">
         <div class="iPad">
           <div class="ipad-cont">
-            <img src="./Heading 3.svg" alt="" />
+            <img src="./apple/Heading 3.svg" alt="" />
             <p>Two sizes. Faster chip. Does it all.</p>
             <div class="button">
               <button class="button9">Learn more</button>
@@ -72,6 +89,18 @@
             </div>
             <div class="ipad-p">
               <p>Hello, Apple Intelligence.</p>
+            </div>
+          </div>
+        </div>
+        <div class="airpods4">
+          <div class="airpods4-cont">
+            <h5>AirPods 4</h5>
+            <p>
+              Iconic. Now supersonic. Available with Active Noise Cancellation.2
+            </p>
+            <div class="button">
+              <button class="resp-button">Learn more</button>
+              <button class="resp-button1">Buy</button>
             </div>
           </div>
         </div>
@@ -85,16 +114,40 @@
             </div>
           </div>
         </div>
+        <div class="resp-watch">
+          <div class="ipad-cont" id="resp">
+            <div class="watch-cont">
+              <img class="apple-icon" src="./apple/Vector.svg" alt="" />
+              <h1>WATCH</h1>
+            </div>
+            <h3>SERIES 10</h3>
+            <p>Thinstant classic</p>
+            <div class="button">
+              <button class="button9">Learn more</button>
+              <button class="button10">Buy</button>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="store-2">
         <div class="watch">
           <div class="ipad-cont">
             <div class="watch-cont">
-              <img class="apple-icon" src="./Vector.svg" alt="" />
+              <img class="apple-icon" src="./apple/Vector.svg" alt="" />
               <h1>WATCH</h1>
             </div>
             <h3>SERIES 10</h3>
             <p>Thinstant classic</p>
+            <div class="button">
+              <button class="button9">Learn more</button>
+              <button class="button10">Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="resp-macbook">
+          <div class="ipad-cont">
+            <h1>MacBook Air</h1>
+            <p>Lean. Mean. M3 machine</p>
             <div class="button">
               <button class="button9">Learn more</button>
               <button class="button10">Buy</button>
@@ -111,12 +164,19 @@
             </div>
           </div>
         </div>
+        <div class="small">
+          <div class="small-cont" id="resp">
+            <h5>Apple for Small Business</h5>
+            <p>Hardware, software, and expert help - all in one place.</p>
+            <button class="small-button">Learn more</button>
+          </div>
+        </div>
       </div>
       <div class="store-3">
         <div class="trade">
           <div class="ipad-cont">
             <div class="watch-cont">
-              <img class="apple-icon" src="./Vector.svg" alt="" />
+              <img class="apple-icon" src="./apple/Vector.svg" alt="" />
               <h1>Trade In</h1>
             </div>
             <p>
@@ -128,10 +188,20 @@
             </div>
           </div>
         </div>
+        <div class="carrier">
+          <div class="airpods4-cont" id="resp">
+            <h5>Carrier deals ap Apple</h5>
+            <p>
+              Get up to $1000 in credit on a new iPhone. Trade-in may be
+              required.
+            </p>
+            <button class="small-button">Find your deal</button>
+          </div>
+        </div>
         <div class="card">
           <div class="ipad-cont">
             <div class="watch-cont">
-              <img class="apple-icon" src="./Vector.svg" alt="" />
+              <img class="apple-icon" src="./apple/Vector.svg" alt="" />
               <h1>Card</h1>
             </div>
             <p>
@@ -281,21 +351,21 @@
         </div>
         <div class="animation-content">
           <div id="anim5" class="animation-cont">
-            <img class="anim-img" src="./animation5.jpg" alt="" />
+            <img class="anim-img" src="./apple/animation5.jpg" alt="" />
             <p>R&B Now</p>
             <button>Listen Now</button>
           </div>
         </div>
         <div class="animation-content">
           <div id="anim6" class="animation-cont">
-            <img class="anim-img" src="./animation6.jpg" alt="" />
+            <img class="anim-img" src="./apple/animation6.jpg" alt="" />
             <p>Today's Indie rock</p>
             <button>Listen Now</button>
           </div>
         </div>
         <div class="animation-content">
           <div id="anim7" class="animation-cont">
-            <img class="anim-img" src="./animation7.jpg" alt="" />
+            <img class="anim-img" src="./apple/animation7.jpg" alt="" />
             <p>Streigth with Kyle</p>
             <button>Listen Now</button>
           </div>
@@ -314,7 +384,7 @@
         </div>
         <div class="animation-content">
           <div id="anim10" class="animation-cont">
-            <img class="anim-img" src="./animation10.jpg" alt="" />
+            <img class="anim-img" src="./apple/animation10.jpg" alt="" />
             <p>Today's Country</p>
             <button>Listen Now</button>
           </div>
@@ -345,21 +415,21 @@
         </div>
         <div class="animation-content">
           <div id="anim5" class="animation-cont">
-            <img class="anim-img" src="./animation5.jpg" alt="" />
+            <img class="anim-img" src="./apple/animation5.jpg" alt="" />
             <p>R&B Now</p>
             <button>Listen Now</button>
           </div>
         </div>
         <div class="animation-content">
           <div id="anim6" class="animation-cont">
-            <img class="anim-img" src="./animation6.jpg" alt="" />
+            <img class="anim-img" src="./apple/animation6.jpg" alt="" />
             <p>Today's Indie rock</p>
             <button>Listen Now</button>
           </div>
         </div>
         <div class="animation-content">
           <div id="anim7" class="animation-cont">
-            <img class="anim-img" src="./animation7.jpg" alt="" />
+            <img class="anim-img" src="./apple/animation7.jpg" alt="" />
             <p>Streigth with Kyle</p>
             <button>Listen Now</button>
           </div>
@@ -378,7 +448,7 @@
         </div>
         <div class="animation-content">
           <div id="anim10" class="animation-cont">
-            <img class="anim-img" src="./animation10.jpg" alt="" />
+            <img class="anim-img" src="./apple/animation10.jpg" alt="" />
             <p>Today's Country</p>
             <button>Listen Now</button>
           </div>

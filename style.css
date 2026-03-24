@@ -1,11 +1,14 @@
-header {
-  width: 100vw;
+nav {
+  width: 100%;
   display: flex;
   gap: 24px;
   height: 44px;
   justify-content: center;
   align-items: center;
   background-color: rgba(245, 245, 247, 0.8);
+}
+#menu-icon {
+  display: none;
 }
 .hero p {
   color: white;
@@ -55,14 +58,23 @@ h4 {
   line-height: 60px; /* 115.385% */
   letter-spacing: -0.28px;
 }
+.hero-content p {
+  color: #f5f5f7;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
 #ip16-pro {
-  background-image: url(./ip16-pro.svg);
+  background-image: url(./apple/ip16-pro.svg);
 }
 #ip16 {
-  background-image: url(./ip16.svg);
+  background-image: url(./apple/ip16.svg);
 }
 #gift {
-  background-image: url(./gift.svg);
+  background-image: url(./apple/gift.svg);
 }
 
 .hero-cont {
@@ -173,20 +185,31 @@ h4 {
   gap: 12px;
 }
 .iPad {
-  background-image: url(./Figure.svg);
+  background-image: url(./apple/Figure.svg);
   width: 50vw;
   height: 40vh;
   background-size: cover;
   background-position: center;
+  justify-content: center;
+  display: block;
 }
 .ipad-cont {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding-top: 1.5vh;
 }
+.ipad-cont p {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+}
 .iPad img {
-  height: 40px;
+  width: 100%;
+  height: 33px;
 }
 .iPad h1 {
   color: #000;
@@ -217,7 +240,7 @@ h4 {
   -webkit-text-fill-color: transparent;
 }
 .Airpods {
-  background-image: url(./airpods.svg);
+  background-image: url(./apple/airpods.svg);
   width: 50vw;
   height: 40vh;
   background-size: cover;
@@ -230,15 +253,27 @@ h4 {
   padding-top: 25vh;
   flex-direction: column;
 }
-
-.Airpods p {
+.AirPods-cont p {
   color: white;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
 }
+
 .Airpods h1 {
-  color: white;
+  color: #f5f5f7;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px; /* 122.222% */
 }
 .watch {
-  background-image: url(./watch.svg);
+  background-image: url(./apple/watch.svg);
   background-size: cover;
   width: 50vw;
   background-position: center;
@@ -272,7 +307,7 @@ h3 {
   margin: 0;
 }
 .macbook {
-  background-image: url(./Macbook.svg);
+  background-image: url(./apple/Macbook.svg);
   background-size: cover;
   width: 50vw;
   background-position: center;
@@ -286,7 +321,7 @@ h3 {
   gap: 12px;
 }
 .trade {
-  background-image: url(./trade.svg);
+  background-image: url(./apple/trade.svg);
   background-size: cover;
   width: 50vw;
   background-position: center;
@@ -309,7 +344,7 @@ h3 {
   color: white;
 }
 .card {
-  background-image: url(./card.svg);
+  background-image: url(./apple/card.svg);
   background-size: cover;
   width: 50vw;
   background-position: center;
@@ -362,34 +397,34 @@ h3 {
   background-size: cover;
 }
 #item1 {
-  background-image: url(./instigators.jpg);
+  background-image: url(./apple/instigators.jpg);
 }
 #item2 {
-  background-image: url(./baseball.jpg);
+  background-image: url(./apple/baseball.jpg);
 }
 #item3 {
-  background-image: url(./bad-monkey.jpg);
+  background-image: url(./apple/bad-monkey.jpg);
 }
 #item4 {
-  background-image: url(./napoleon.jpg);
+  background-image: url(./apple/napoleon.jpg);
 }
 #item5 {
-  background-image: url(./k-pop-idols.jpg);
+  background-image: url(./apple/k-pop-idols.jpg);
 }
 #item6 {
-  background-image: url(./season-pass.jpg);
+  background-image: url(./apple/season-pass.jpg);
 }
 #item7 {
-  background-image: url(./pressumed-innocent.jpg);
+  background-image: url(./apple/pressumed-innocent.jpg);
 }
 #item8 {
-  background-image: url(./pachinko.jpg);
+  background-image: url(./apple/pachinko.jpg);
 }
 #item9 {
-  background-image: url(./lady-in-the-lake.jpg);
+  background-image: url(./apple/lady-in-the-lake.jpg);
 }
 #item10 {
-  background-image: url(./morning-show.jpg);
+  background-image: url(./apple/morning-show.jpg);
 }
 .item1-cont {
   display: flex;
@@ -492,16 +527,16 @@ h3 {
   }
 }
 #anim1 {
-  background-image: url(./animation1.jpg);
+  background-image: url(./apple/animation1.jpg);
 }
 #anim2 {
-  background-image: url(./animation2.jpg);
+  background-image: url(./apple/animation2.jpg);
 }
 #anim3 {
-  background-image: url(./animation3.jpg);
+  background-image: url(./apple/animation3.jpg);
 }
 #anim4 {
-  background-image: url(./animation4.jpg);
+  background-image: url(./apple/animation4.jpg);
 }
 #anim5 {
   background-color: rgb(20, 40, 56);
@@ -522,10 +557,10 @@ h3 {
   gap: 10px;
 }
 #anim8 {
-  background-image: url(./animation8.jpg);
+  background-image: url(./apple/animation8.jpg);
 }
 #anim9 {
-  background-image: url(./animation9.jpg);
+  background-image: url(./apple/animation9.jpg);
 }
 #anim10 {
   background-color: #eae6e1;
