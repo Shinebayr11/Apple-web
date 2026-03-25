@@ -6,6 +6,7 @@
     <title>Apple web</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="tablet.css" />
+    <link rel="stylesheet" href="phone.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,7 +31,7 @@
       <div class="nav-img">
         <a href=""><img src="./apple/Vector (1).svg" alt="" /></a>
         <a href=""><img src="./apple/Vector (2).svg" alt="" /></a>
-        <a id="menu-icon" href=""><img src="./nav.svg" alt="" /></a>
+        <a id="menu-icon" href=""><img src="./tablet/SVG (9).svg" alt="" /></a>
       </div>
     </nav>
     <div class="donate">
@@ -48,7 +49,7 @@
           <button class="button2">Buy</button>
         </div>
       </div>
-      <div class="hero-content" id="ip16">
+      <div class="hero-content1" id="ip16">
         <h1>iPhone 16</h1>
         <p>Hello, Apple Intelligence</p>
         <div class="button">
@@ -129,6 +130,18 @@
           </div>
         </div>
       </div>
+      <div class="phone-airpods">
+        <div class="airpods4-cont">
+          <h5>AirPods 4</h5>
+          <p>
+            Iconic. Now supersonic. Available with Active Noise Cancellation.2
+          </p>
+          <div class="button">
+            <button class="resp-button">Learn more</button>
+            <button class="resp-button1">Buy</button>
+          </div>
+        </div>
+      </div>
       <div class="store-2">
         <div class="watch">
           <div class="ipad-cont">
@@ -145,7 +158,7 @@
           </div>
         </div>
         <div class="resp-macbook">
-          <div class="ipad-cont">
+          <div class="ipad-cont" id="resp">
             <h1>MacBook Air</h1>
             <p>Lean. Mean. M3 machine</p>
             <div class="button">
@@ -172,6 +185,20 @@
           </div>
         </div>
       </div>
+      <div class="phone-watch">
+        <div class="ipad-cont">
+          <div class="watch-cont">
+            <img class="apple-icon" src="./apple/Vector.svg" alt="" />
+            <h1>WATCH</h1>
+          </div>
+          <h3>SERIES 10</h3>
+          <p>Thinstant classic</p>
+          <div class="button">
+            <button class="button1">Learn more</button>
+            <button class="button2">Buy</button>
+          </div>
+        </div>
+      </div>
       <div class="store-3">
         <div class="trade">
           <div class="ipad-cont">
@@ -189,7 +216,7 @@
           </div>
         </div>
         <div class="carrier">
-          <div class="airpods4-cont" id="resp">
+          <div class="carrier-cont" id="resp">
             <h5>Carrier deals ap Apple</h5>
             <p>
               Get up to $1000 in credit on a new iPhone. Trade-in may be
@@ -211,6 +238,67 @@
             <div class="button">
               <button class="button9">Learn more</button>
               <button class="button6">Apply now</button>
+            </div>
+          </div>
+        </div>
+        <div class="resp-trade" id="resp">
+          <div class="ipad-cont">
+            <div class="watch-cont">
+              <img class="apple-icon" src="./apple/Vector.svg" alt="" />
+              <h1>Trade In</h1>
+            </div>
+            <p>
+              Get $180–$650 in credit when you <br />
+              trade in iPhone 12 or higher.4
+            </p>
+            <div class="button">
+              <button class="button7">Get your estimate</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="phone-mac">
+        <div class="ipad-cont" id="resp">
+          <h1>MacBook Air</h1>
+          <p>Lean. Mean. M3 machine</p>
+          <div class="button">
+            <button class="button9">Learn more</button>
+            <button class="button10">Buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="phone3">
+        <div class="phone3-cont">
+          <div class="phone-small">
+            <div class="small-cont" id="resp">
+              <h5>Apple for Small Business</h5>
+              <p>Hardware, software, and expert help - all in one place.</p>
+              <button class="small-button">Learn more</button>
+            </div>
+          </div>
+          <div class="phone-carrier">
+            <div class="carrier-cont" id="resp">
+              <h5>Carrier deals ap Apple</h5>
+              <p>
+                Get up to $1000 in credit on a new iPhone. Trade-in may be
+                required.
+              </p>
+              <button class="small-button">Find your deal</button>
+            </div>
+          </div>
+          <div class="phone-trade" id="resp">
+            <div class="ipad-cont">
+              <div class="watch-cont">
+                <img class="apple-icon" src="./apple/Vector.svg" alt="" />
+                <h1>Trade In</h1>
+              </div>
+              <p>
+                Get $180–$650 in credit when you <br />
+                trade in iPhone 12 or higher.4
+              </p>
+              <div class="button">
+                <button class="button7">Get your estimate</button>
+              </div>
             </div>
           </div>
         </div>
@@ -239,7 +327,7 @@
           <div class="item1-cont">
             <button>Stream now</button>
             <div class="item1-text">
-              <h4>Comedy ·</h4>
+              <p>Comedy ·</p>
               <p>The shady side of paradise.</p>
             </div>
           </div>
@@ -330,24 +418,28 @@
             <p>Football Manager 2024 Touch</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">Football Manager 2024 Touch</p>
         </div>
         <div class="animation-content">
           <div id="anim2" class="animation-cont">
             <p>6 Weeks to Restart Your Fitness</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">6 Weeks to Restart Your Fitness</p>
         </div>
         <div class="animation-content">
           <div id="anim3" class="animation-cont">
             <p>NBA 2k25 Arcade Edition</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">NBA 2k25 Arcade Edition</p>
         </div>
         <div class="animation-content">
           <div id="anim4" class="animation-cont">
             <p>Streigth with Kyle</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">Streigth with Kyle</p>
         </div>
         <div class="animation-content">
           <div id="anim5" class="animation-cont">
@@ -355,6 +447,7 @@
             <p>R&B Now</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">R&B Now</p>
         </div>
         <div class="animation-content">
           <div id="anim6" class="animation-cont">
@@ -362,6 +455,7 @@
             <p>Today's Indie rock</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">Today's Indie rock</p>
         </div>
         <div class="animation-content">
           <div id="anim7" class="animation-cont">
@@ -369,18 +463,21 @@
             <p>Streigth with Kyle</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">Streigth with Kyle</p>
         </div>
         <div class="animation-content">
           <div id="anim8" class="animation-cont">
             <p>Hello Kitty Island Adventure</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">Hello Kitty Island Adventure</p>
         </div>
         <div class="animation-content">
           <div id="anim9" class="animation-cont">
             <p>Run your first 5k</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">Run your first 5k</p>
         </div>
         <div class="animation-content">
           <div id="anim10" class="animation-cont">
@@ -388,18 +485,21 @@
             <p>Today's Country</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">Today's Country</p>
         </div>
         <div class="animation-content">
           <div id="anim1" class="animation-cont">
             <p>Football Manager 2024 Touch</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">Football Manager 2024 Touch</p>
         </div>
         <div class="animation-content">
           <div id="anim2" class="animation-cont">
             <p>6 Weeks to Restart Your Fitness</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">6 Weeks to Restart Your Fitness</p>
         </div>
         <div class="animation-content">
           <div id="anim3" class="animation-cont">
@@ -412,6 +512,7 @@
             <p>Streigth with Kyle</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">Streigth with Kyle</p>
         </div>
         <div class="animation-content">
           <div id="anim5" class="animation-cont">
@@ -419,6 +520,7 @@
             <p>R&B Now</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">R&B Now</p>
         </div>
         <div class="animation-content">
           <div id="anim6" class="animation-cont">
@@ -426,6 +528,7 @@
             <p>Today's Indie rock</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">Today's Indie rock</p>
         </div>
         <div class="animation-content">
           <div id="anim7" class="animation-cont">
@@ -433,6 +536,7 @@
             <p>Streigth with Kyle</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">Streigth with Kyle</p>
         </div>
         <div class="animation-content">
           <div id="anim8" class="animation-cont">
@@ -445,6 +549,7 @@
             <p>Run your first 5k</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">Run your first 5k</p>
         </div>
         <div class="animation-content">
           <div id="anim10" class="animation-cont">
@@ -452,6 +557,7 @@
             <p>Today's Country</p>
             <button>Listen Now</button>
           </div>
+          <p class="resp-p">Today's Country</p>
         </div>
       </div>
     </section>

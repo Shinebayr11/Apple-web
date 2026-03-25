@@ -1,0 +1,105 @@
+@media (max-width: 400px) {
+  #menu-icon {
+    display: block;
+  }
+  nav {
+    justify-content: space-between;
+  }
+  nav a {
+    padding-left: 20px;
+  }
+  .nav-img {
+    padding-right: 20px;
+  }
+  #ip16-pro {
+    background-image: url(./phone/phone-16pro.svg);
+  }
+  .hero-content {
+    justify-content: flex-end;
+    padding-bottom: 2vh;
+  }
+  .hero-content h1 {
+    color: #f5f5f7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 120% */
+  }
+  .hero-content p {
+    color: #f5f5f7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 21.6px */
+  }
+  .button1 {
+    width: 107px;
+    height: 36px;
+  }
+  .button2 {
+    width: 66px;
+    height: 36px;
+  }
+  #ip16 {
+    background-image: url(./phone/phone16.svg);
+  }
+  .hero-content1 h1 {
+    color: #f5f5f7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 120% */
+  }
+  .hero-content1 p {
+    color: #f5f5f7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 21.6px */
+  }
+  .button3 {
+    width: 107px;
+    height: 36px;
+  }
+  .button4 {
+    width: 66px;
+    height: 36px;
+  }
+  .iPad2 {
+    background-image: url(./phone/phone-ipad.svg);
+  }
+  .store-1 {
+    display: none;
+  }
+  .phone-airpods {
+    display: block;
+  }
+  .store-2 {
+    display: none;
+  }
+  .phone-watch p {
+    margin: 5px;
+  }
+  .store-3 {
+    display: none;
+  }
+  .phone-mac {
+    display: block;
+  }
+  .phone3 {
+    display: block;
+  }
+  .phone3-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
