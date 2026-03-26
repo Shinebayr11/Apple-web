@@ -1,4 +1,4 @@
-@media (max-width: 400px) {
+@media (max-width: 390px) {
   #menu-icon {
     display: block;
   }
@@ -101,5 +101,65 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+  }
+  .scroll-item {
+    min-width: 274px;
+    height: 495px;
+    background-position: center;
+    background-size: cover;
+  }
+  .item1-cont {
+    display: none;
+  }
+  #item1 {
+    background-image: url(./phone/phone-link1.svg);
+  }
+  #item2 {
+    background-image: url(./phone/phone-link2.svg);
+  }
+  #item3 {
+    background-image: url(./phone/phone-link3.svg);
+  }
+  #item4 {
+    background-image: url(./phone/phone-link4.svg);
+  }
+  #item5 {
+    background-image: url(./phone/phone-link5.svg);
+  }
+  #item6 {
+    background-image: url(./phone/phone-link6.svg);
+  }
+  #item7 {
+    background-image: url(./phone/phone-link7.svg);
+  }
+  #item8 {
+    background-image: url(./phone/phone-link8.svg);
+  }
+  #item9 {
+    display: none;
+  }
+  #item10 {
+    display: none;
+  }
+  .item9-dot {
+    display: none;
+  }
+  .item10-dot {
+    display: none;
+  }
+  .animation-cont {
+    width: 238px;
+    height: 134px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 15px;
+    position: relative;
+  }
+  .anim-img {
+    border-radius: 20px;
+    width: 120px;
+    height: 120px;
   }
 }

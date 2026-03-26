@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: #f5f5f7;
@@ -93,6 +94,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 0 140px;
+  overflow: hidden;
 }
 .store-img {
   display: flex;
@@ -145,15 +147,18 @@ a {
 .apple-content {
   display: flex;
   gap: 20px;
+  overflow: scroll;
+  scrollbar-width: none;
 }
 .apple-cont {
   display: flex;
   flex-direction: column;
-  width: 480px;
+  min-width: 480px;
   height: 500px;
   background-size: cover;
   background-position: center;
   gap: 12px;
+  border-radius: 20px;
 }
 .apple-cont h6 {
   color: #b64400;
@@ -202,16 +207,18 @@ a {
 }
 .airpods-cont {
   display: flex;
-  width: 400px;
+  min-width: 400px;
   height: 500px;
-  background-image: url(./airpod-one.svg);
   background-size: cover;
   background-position: center;
 }
-
+#rm {
+  background-image: url(./airpod-one.svg);
+}
+#tab {
+  background-image: url(./tab.svg);
+}
 .airpods-cont p {
-  width: 197px;
-  height: 66px;
   color: #1d1d1f;
   font-family: Inter;
   font-size: 26px;
@@ -219,40 +226,231 @@ a {
   font-weight: 700;
   line-height: 32px; /* 123.077% */
   letter-spacing: 0.196px;
-  padding: 53px 30px;
+  padding: 50px 30px;
 }
 .airpods-con {
   display: flex;
+  gap: 16px;
+  overflow: scroll;
+  scrollbar-width: none;
 }
 .airpods-conte {
   display: flex;
-  width: 400px;
+  width: 313px;
   height: 500px;
   flex-direction: column;
   padding: 71px 28px 32px 28px;
   background-color: white;
-  align-items: center;
 }
-
+.airpods-conte img {
+  width: 230px;
+  height: 230px;
+}
 .booronhii {
   display: flex;
   gap: 7px;
-  width: 253px;
-  height: 58px;
   padding: 25px 86px 21px 79px;
-  align-items: flex-start;
+  justify-content: center;
 }
-.booronhii-cont {
-  padding: 25px 86px 21px 79px;
-}
-.airpodstext-cont {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.booronhii img {
+  width: 12px;
+  height: 12px;
 }
 .airpods-text {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  align-items: start;
+  width: 237px;
+  height: 109px;
+  gap: 50px;
+}
+.airpods-max {
+  display: flex;
+  justify-content: center;
+}
+.airpodstext-cont p {
+  color: #b64400;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+}
+.airpodstext-cont h5 {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 111.111% */
+}
+.only {
+  padding: 0 140px;
+}
+.only-container {
+  display: flex;
+  gap: 16px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.pickup {
+  width: 480px;
+  height: 500px;
+  background-image: url(./pickup.svg);
+}
+.pickup p {
+  width: 330px;
+  height: 96px;
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 123.077% */
+  width: 400px;
+  height: 130px;
+  padding: 50px 30px;
+}
+.only-text {
+  align-content: center;
+  padding-left: 30px;
+  width: 313px;
+  height: 240px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+}
+.only-text p {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 127.273% */
+  height: 84px;
+  width: 240px;
+}
+.only-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.only-trade {
+  min-width: 480px;
+  height: 500px;
+}
+#only-t {
+  background-image: url(./only-trade.svg);
+}
+#only-f {
+  background-image: url(./only-find.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.only-trade h6 {
+  color: #6e6e73;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+}
+.only-trade p {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 128% */
+}
+.only-txt {
+  width: 330px;
+  height: 96px;
+  padding: 51px 30px;
+}
+.music {
+  padding: 0 140px;
+}
+.music-cont {
+  min-width: 480px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+#music1 {
+  background-image: url(./music1.svg);
+}
+#music2 {
+  background-image: url(./music2.svg);
+}
+#music3 {
+  background-image: url(./music3.svg);
+}
+#music4 {
+  background-image: url(./music4.jpg);
+}
+.music-text {
+  padding: 54px 30px;
+}
+.music-text h6 {
+  color: #6e6e73;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+}
+.music-text p {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 123.077% */
+}
+.music-text span {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 117.647% */
+}
+.special {
+  padding: 0 140px;
+}
+#spe1 {
+  background-image: url(./spe1.svg);
+}
+#spe2 {
+  background-image: url(./spe2.svg);
+}
+#spe3 {
+  background-image: url(./spe3.svg);
+}
+#spe4 {
+  background-image: url(./spe4.svg);
+}
+#spe5 {
+  background-image: url(./spe5.jpg);
+}
+#spe4 p {
+  color: white;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 140px;
+  gap: 20px;
+}
+.foot-cont {
+  border: 1px solid black;
+  border-radius: 999px;
+  width: 140px;
+  height: 40px;
+  padding: 10px 12px;
+}
+.foot {
+  display: flex;
+  gap: 20px;
 }
