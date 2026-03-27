@@ -351,6 +351,7 @@ a {
 .only-trade {
   min-width: 480px;
   height: 500px;
+  border-radius: 20px;
 }
 #only-t {
   background-image: url(./only-trade.svg);
