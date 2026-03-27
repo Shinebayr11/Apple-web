@@ -124,7 +124,9 @@ a {
 .color-text {
   display: flex;
   padding: 60px 0 24px 0;
+  gap: 20px;
 }
+
 .color-text h6 {
   background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
   background-clip: text;
@@ -159,6 +161,7 @@ a {
   background-position: center;
   gap: 12px;
   border-radius: 20px;
+  padding: 2vh 2vw;
 }
 .apple-cont h6 {
   color: #b64400;
@@ -193,6 +196,7 @@ a {
 }
 #pro-1 {
   background-image: url(./intel-watch.svg);
+  padding-top: 4.5vh;
 }
 #pro-2 {
   background-image: url(./intel-ipad.svg);
@@ -211,6 +215,7 @@ a {
   height: 500px;
   background-size: cover;
   background-position: center;
+  border-radius: 20px;
 }
 #rm {
   background-image: url(./airpod-one.svg);
@@ -241,6 +246,7 @@ a {
   flex-direction: column;
   padding: 71px 28px 32px 28px;
   background-color: white;
+  border-radius: 20px;
 }
 .airpods-conte img {
   width: 230px;
@@ -261,7 +267,13 @@ a {
   flex-direction: column;
   width: 237px;
   height: 109px;
-  gap: 50px;
+  justify-content: space-between;
+}
+
+#solo4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .airpods-max {
   display: flex;
@@ -296,6 +308,7 @@ a {
   width: 480px;
   height: 500px;
   background-image: url(./pickup.svg);
+  border-radius: 20px;
 }
 .pickup p {
   width: 330px;
@@ -311,8 +324,9 @@ a {
   padding: 50px 30px;
 }
 .only-text {
-  align-content: center;
-  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 313px;
   height: 240px;
   border-radius: 18px;
@@ -383,6 +397,12 @@ a {
 #music2 {
   background-image: url(./music2.svg);
 }
+#music2 p {
+  color: white;
+}
+#music2 h6 {
+  color: white;
+}
 #music3 {
   background-image: url(./music3.svg);
 }
@@ -437,18 +457,43 @@ a {
 #spe4 p {
   color: white;
 }
+#spe-color {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.spe-text {
+  display: flex;
+  gap: 20px;
+}
 footer {
   display: flex;
   flex-direction: column;
   padding: 100px 140px;
   gap: 20px;
 }
+#foot-link {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 123.077% */
+}
 .foot-cont {
   border: 1px solid black;
   border-radius: 999px;
-  width: 140px;
   height: 40px;
   padding: 10px 12px;
+}
+.foot-cont p {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
 }
 .foot {
   display: flex;
